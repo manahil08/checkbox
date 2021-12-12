@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity  implements
                 if (checkBoxRead.isChecked())
                     simpleButton2.setText("Check Box Read");
                 break;
+
+
+                
         }
     }
 }
