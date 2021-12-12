@@ -16,22 +16,26 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/simpleButton3">
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/checkBoxDone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Done" />
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/checkBoxPending"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Pending" />
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/checkBoxRead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Read"/>
-
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="button"
+    android:id="@+id/simpleButton2"/>
 </LinearLayout>
